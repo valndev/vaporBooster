@@ -1,3 +1,5 @@
+# WARNING: This project can be considered unmaintained. I will probably create a completely new project with better code and more features in another language.
+
 -   #### Forked from [_the hour booster made by klorik_](https://www.unknowncheats.me/forum/cs-go-releases/201270-ez-steam-hours-booster-nodejs-steamguard-2fa.html).
 
 # vaporBooster, a simple Steam hour booster with 2FA support
