@@ -23,7 +23,7 @@
 		if (qrUrl && qrCanvas) {
 			QRCode.toCanvas(qrCanvas, qrUrl, { width: 180, margin: 1 }, (error) => {
 				if (error) console.error('QR render error:', error);
-				else console.log('QR code rendered successfully');
+				//else console.log('QR code rendered successfully');
 			});
 		}
 	});
@@ -49,12 +49,12 @@
 			});
 
 			const result = deserialize(await response.text());
-			console.log('startQrLogin result:', result);
+			//console.log('startQrLogin result:', result);
 
 			if (result.type === 'success' && result.data) {
 				qrUrl = result.data.qrUrl as string;
 				sessionId = result.data.sessionId as string;
-				console.log('QR URL received:', qrUrl);
+				//console.log('QR URL received:', qrUrl);
 				poll();
 			} else if (result.type === 'failure') {
 				qrError = (result.data as any)?.error || 'Failed to start QR login';
