@@ -38,7 +38,7 @@
 Copy the example file and set the required variables:
 
 ```bash
-cp .env.example .env
+cp example.env .env
 ```
 
 Generate a secure 32+ character secret for `BETTER_AUTH_SECRET`:
