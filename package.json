@@ -33,7 +33,7 @@
 	"dependencies": {
 		"@libsql/client": "^0.17.2",
 		"@tailwindcss/vite": "^4.2.2",
-		"better-auth": "^1.6.5",
+		"better-auth": "^1.6.11",
 		"drizzle-orm": "^0.45.2",
 		"jwt-decode": "^4.0.0",
 		"qrcode": "^1.5.4",
